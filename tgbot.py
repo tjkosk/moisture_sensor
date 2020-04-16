@@ -19,7 +19,7 @@ def handle(msg):
      bot.sendMessage(chat_id,answer)
      # bot.sendMessage(chat_id,'Olethan muistannut kastella tomaatit?')
 
-bot=telepot.Bot('1103226348:AAEjEg9TNAJOlFM5lWPiZoAPU-C_I0Zi-qY')
+bot=telepot.Bot('token')
 users = ['retsihaha','tomikoskinen']
 
 serID = arduino.openSerial()
